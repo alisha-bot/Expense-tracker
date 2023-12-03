@@ -16,7 +16,7 @@ const port = process.env.PORT || 8000; // Specify a default port if process.env.
 
 const cors = require('cors');
 const corsOption = {
-    origin: ['http://localhost:8000'],
+    origin: ["https://expense-tracker-wnx2.vercel.app"],
     credentials: true,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
 }
